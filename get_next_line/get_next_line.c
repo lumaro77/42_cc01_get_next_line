@@ -16,10 +16,10 @@
 char	*get_next_line(int fd)
 {
 	// variable to store the next line
-	char *next_line = NULL;
+	char *next_line;
 
 	// Initialize variable to store the next line
-	*next_line = NULL;
+	next_line = NULL;
 	// Call function to read the next line
 	if (read_next_line(fd, &next_line))
 		// Free memory if an error occurs

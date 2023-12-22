@@ -29,6 +29,6 @@ void	*ft_calloc(size_t count, size_t size);
 char	*ft_strjoin(char const *s1, char const *s2);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
-
+char    *ft_free(char *str);
 
 #endif

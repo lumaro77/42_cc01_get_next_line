@@ -105,3 +105,11 @@ size_t	ft_strlen(const char *s)
 		ptr++;
 	return ((size_t)(ptr - s));
 }
+
+// Function to free memory
+char    *ft_free(char *str)
+{
+	if (str)
+		free(str);
+	return (NULL);
+}
